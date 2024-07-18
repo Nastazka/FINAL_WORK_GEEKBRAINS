@@ -1,0 +1,558 @@
+.container-user {
+  max-width: 86%;
+  margin: 20px auto 0 auto;
+}
+.container-user .user-info {
+  max-width: 200px;
+  margin-bottom: 30px;
+  padding-right: 10px;
+  border-right: 1px solid #dbdbdb;
+  min-height: 550px;
+}
+.container-user .user-info img {
+  max-width: 150px;
+  margin-top: 20px;
+}
+.container-user .user-info .personal-info .username {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+}
+.container-user .user-info .personal-info p {
+  font-size: 14px;
+  font-family: "Exo 2";
+  font-weight: 500;
+  margin-bottom: 15px;
+  color:#404040;
+}
+.container-user .user-info .personal-info-edit {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  gap: 15px;
+}
+.container-user .user-info .personal-info-edit a {
+  text-decoration: none;
+  font-size: 12px;
+  font-family: "Exo 2";
+  font-weight: 400;
+  color: black;
+}
+.container-user .user-info .account-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container-user .user-info .account-menu a {
+  font-size: 14px;
+  font-family: "Exo 2";
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+  transition: all 500ms ease;
+}
+
+.container-user .user-info .account-menu a:hover {
+  transform: scale(1.01);
+}
+
+.container-user .saves-main .saves-title {
+  font-size: 20px;
+  font-family: "Exo 2";
+  font-weight: 500;
+  margin-bottom: 35px;
+  text-transform: uppercase;
+}
+.container-user .saves-main .saves-items {
+  margin-bottom: 72px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  -moz-column-gap: 100px;
+        column-gap: 100px;
+  row-gap: 60px;
+
+}
+.container-user .saves-main .saves-items .saves-item {
+  width: 300px;
+  transition: all 500ms ease;
+}
+.container-user .saves-main .saves-items .saves-item:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  transform: scale(1.03);
+}
+.container-user .saves-main .saves-items .saves-item img {
+  max-width: 300px;
+}
+.container-user .saves-main .saves-items .saves-item .product_name {
+  color: black;
+  font-family: "Exo 2";
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 10px auto 65px auto;
+  font-weight: 500;
+}
+.container-user .saves-main .saves-items .saves-item .card_footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.container-user .saves-main .saves-items .saves-item .card_footer .add-to-cart {
+  color: black;
+  font-family: "Exo 2";
+  font-size: 14px;
+  padding: 8px 31px 8px 31px;
+  border: 1px solid #5C5C5C;
+  background-color: #fff;
+  text-transform: uppercase;
+  transition: all 500ms ease;
+}
+.container-user .saves-main .saves-items .saves-item .card_footer .add-to-cart:hover {
+  background-color: #8EBD3B;
+  border: 1px solid #8EBD3B;
+}
+.container-user .saves-main .saves-items .saves-item .card_footer .like-btn {
+  background-color: #fff;
+  border: none;
+  transition: all 500ms ease;
+}
+.container-user .saves-main .saves-items .saves-item .card_footer .like-btn:hover {
+  transform: scale(1.2);
+}
+.container-user .history-main {
+  margin-bottom: 85px;
+}
+.container-user .history-main .history-title {
+  font-size: 20px;
+  font-family: "Exo 2";
+  font-weight: 500;
+  margin-bottom: 35px;
+  text-transform: uppercase;
+}
+.container-user .history-main .on_the_way {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-bottom: 1px solid #B4B4B4;
+  padding-bottom: 28px;
+}
+.container-user .history-main .on_the_way .history-way-item {
+  padding: 20px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 56px;
+  width: 1050px;
+  transition: all 500ms ease;
+}
+.container-user .history-main .on_the_way .history-way-item .order-info .order-status {
+  display: flex;
+  gap: 35px;
+  margin-bottom: 17px;
+}
+.container-user .history-main .on_the_way .history-way-item .order-info .order-status .status-text {
+  font-size: 18px;
+  font-family: "Exo 2";
+  font-weight: 400;
+  color: black;
+  border: 1px solid #8EBD3B;
+  border-radius: 50px;
+  padding: 5px 50px;
+}
+.container-user .history-main .on_the_way .history-way-item .order-info .order-status #delivered {
+  font-size: 18px;
+  font-family: "Exo 2";
+  font-weight: 400;
+  color: black;
+  border: 1px solid #8EBD3B;
+  background-color: #8EBD3B;
+  border-radius: 50px;
+  padding: 5px 50px;
+}
+.container-user .history-main .on_the_way .history-way-item .order-info .order-status .order-number {
+  font-size: 15px;
+  font-family: "Exo 2";
+  font-weight: 400;
+  color: #5c5c5c;
+  margin-top: 7px;
+  align-self: center;
+}
+.container-user .history-main .on_the_way .history-way-item .order-info .order-dates {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.container-user .history-main .on_the_way .history-way-item .order-info .order-dates .order-date {
+  text-align: center;
+}
+.container-user .history-main .on_the_way .history-way-item .order-info .order-dates .order-date .order-day {
+  font-size: 35px;
+  font-family: "Exo 2";
+  font-weight: 400;
+}
+.container-user .history-main .on_the_way .history-way-item .order-info .order-dates .order-date .order-month {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Exo 2";
+  margin-bottom: 16px;
+}
+.container-user .history-main .on_the_way .history-way-item .order-info .order-dates .order-date .order-date_text {
+  font-size: 18px;
+  font-weight: 400;
+  color: #5c5c5c;
+  font-family: "Exo 2";
+}
+.container-user .history-main .on_the_way .history-way-item .order-info .order-dates .arrow {
+  margin-top: 45px;
+}
+.container-user .history-main .on_the_way .history-way-item .order-info .order-dates .order-completion {
+  text-align: center;
+}
+.container-user .history-main .on_the_way .history-way-item .order-info .order-dates .order-completion .order-day {
+  font-size: 35px;
+  font-family: "Exo 2";
+  font-weight: 400;
+}
+.container-user .history-main .on_the_way .history-way-item .order-info .order-dates .order-completion .order-month {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Exo 2";
+  margin-bottom: 16px;
+}
+.container-user .history-main .on_the_way .history-way-item .order-info .order-dates .order-completion .order-date_text {
+  font-size: 18px;
+  font-weight: 400;
+  color: #5c5c5c;
+  font-family: "Exo 2";
+}
+.container-user .history-main .on_the_way .history-way-item .order-filling {
+  display: flex;
+  align-items: end;
+}
+.container-user .history-main .on_the_way .history-way-item .order-filling .composition .composition-number {
+  font-size: 18px;
+  font-family: "Exo 2";
+  font-weight: 400;
+  margin-bottom: 13px;
+}
+.container-user .history-main .on_the_way .history-way-item .order-filling .composition .composition-products {
+  display: flex;
+  gap: 20px;
+}
+.container-user .history-main .on_the_way .history-way-item .order-amount {
+  margin-left: 100px;
+  text-align: right;
+}
+.container-user .history-main .on_the_way .history-way-item .order-amount .order-amount_text {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Exo 2";
+}
+.container-user .history-main .on_the_way .history-way-item .order-amount .order-amount_number {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Exo 2";
+}
+.container-user .history-main .on_the_way .history-way-item {
+  box-shadow: 0 4px 10px 2px rgba(0, 0, 0, 0.25);
+}
+.container-user .history-main .delivered {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 28px;
+}
+.container-user .history-main .delivered .history-way-item {
+  padding: 20px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 56px;
+  width: 1050px;
+  transition: all 500ms ease;
+}
+.container-user .history-main .delivered .history-way-item .order-info .order-status {
+  display: flex;
+  gap: 35px;
+  margin-bottom: 17px;
+}
+.container-user .history-main .delivered .history-way-item .order-info .order-status .status-text {
+  font-size: 18px;
+  font-family: "Exo 2";
+  font-weight: 400;
+  color: black;
+  border: 1px solid #8EBD3B;
+  border-radius: 50px;
+  padding: 5px 50px;
+}
+.container-user .history-main .delivered .history-way-item .order-info .order-status #delivered {
+  font-size: 18px;
+  font-family: "Exo 2";
+  font-weight: 400;
+  color: black;
+  border: 1px solid #8EBD3B;
+  background-color: #8EBD3B;
+  border-radius: 50px;
+  padding: 5px 50px;
+}
+.container-user .history-main .delivered .history-way-item .order-info .order-status .order-number {
+  font-size: 15px;
+  align-self: center;
+  font-family: "Exo 2";
+  font-weight: 400;
+  color: #5c5c5c;
+  margin-top: 7px;
+}
+.container-user .history-main .delivered .history-way-item .order-info .order-dates {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.container-user .history-main .delivered .history-way-item .order-info .order-dates .order-date {
+  text-align: center;
+}
+.container-user .history-main .delivered .history-way-item .order-info .order-dates .order-date .order-day {
+  font-size: 35px;
+  font-family: "Exo 2";
+  font-weight: 400;
+}
+.container-user .history-main .delivered .history-way-item .order-info .order-dates .order-date .order-month {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Exo 2";
+  margin-bottom: 16px;
+}
+.container-user .history-main .delivered .history-way-item .order-info .order-dates .order-date .order-date_text {
+  font-size: 18px;
+  font-weight: 400;
+  color: #5c5c5c;
+  font-family: "Exo 2";
+}
+.container-user .history-main .delivered .history-way-item .order-info .order-dates .arrow {
+  margin-top: 45px;
+}
+.container-user .history-main .delivered .history-way-item .order-info .order-dates .order-completion {
+  text-align: center;
+}
+.container-user .history-main .delivered .history-way-item .order-info .order-dates .order-completion .order-day {
+  font-size: 35px;
+  font-family: "Exo 2";
+  font-weight: 400;
+}
+.container-user .history-main .delivered .history-way-item .order-info .order-dates .order-completion .order-month {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Exo 2";
+  margin-bottom: 16px;
+}
+.container-user .history-main .delivered .history-way-item .order-info .order-dates .order-completion .order-date_text {
+  font-size: 18px;
+  font-weight: 400;
+  color: #5c5c5c;
+  font-family: "Exo 2";
+}
+.container-user .history-main .delivered .history-way-item .order-filling {
+  display: flex;
+  align-items: end;
+}
+.container-user .history-main .delivered .history-way-item .order-filling .composition .composition-number {
+  font-size: 18px;
+  font-family: "Exo 2";
+  font-weight: 400;
+  margin-bottom: 13px;
+}
+.container-user .history-main .delivered .history-way-item .order-filling .composition .composition-products {
+  display: flex;
+  gap: 20px;
+}
+.container-user .history-main .delivered .history-way-item .order-amount {
+  margin-left: 100px;
+  text-align: right;
+}
+.container-user .history-main .delivered .history-way-item .order-amount .order-amount_text {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Exo 2";
+}
+.container-user .history-main .delivered .history-way-item .order-amount .order-amount_number {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Exo 2";
+}
+.container-user .history-main .delivered .history-way-item {
+  box-shadow: 0 4px 10px 2px rgba(0, 0, 0, 0.25);
+}
+.container-user .basket-main {
+  margin-bottom: 83px;
+}
+.container-user .basket-main .basket-title .basket-title_text {
+  font-size: 20px;
+  font-family: "Exo 2";
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 34px;
+}
+.container-user .basket-main .basket-info {
+  display: flex;
+  gap: 50px;
+}
+.container-user .basket-main .basket-info .basket-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container-user .basket-main .basket-info .basket-items .basket-item {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 15px;
+  transition: all 500ms ease;
+}
+.container-user .basket-main .basket-info .basket-items .basket-item:hover {
+  box-shadow: 0 4px 10px 2px rgba(0, 0, 0, 0.25);
+} 
+.container-user .basket-main .basket-info .basket-items .basket-item img {
+  width: 270px;
+  align-self: start;
+  margin-top: 20px;
+}
+.container-user .basket-main .basket-info .basket-items .basket-item .basket-item_info .product-name {
+  font-size: 20px;
+  font-family: "Exo 2";
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.container-user .basket-main .basket-info .basket-items .basket-item .basket-item_info .product-article {
+  font-size: 14px;
+  font-family: "Exo 2";
+  font-weight: 400;
+  color: #5c5c5c;
+  margin-bottom: 35px;
+}
+.container-user .basket-main .basket-info .basket-items .basket-item .basket-item_info .product-volume {
+  font-size: 14px;
+  font-family: "Exo 2";
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+.container-user .basket-main .basket-info .basket-items .basket-item .basket-item_info .product-price {
+  font-size: 20px;
+  font-family: "Exo 2";
+  font-weight: 400;
+  text-align: right;
+}
+.container-user .basket-main .basket-info .basket-form {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 4px 4px 10px 5px rgba(0, 0, 0, 0.249);
+}
+.container-user .basket-main .basket-info .basket-form .form-title {
+  font-size: 20px;
+  font-family: "Exo 2";
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 20px;
+}
+.container-user .basket-main .basket-info .basket-form form {
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.container-user .basket-main .basket-info .basket-form form .form-input {
+  color: #5c5c5c;
+  font-size: 14px;
+  font-family: "Exo 2";
+  padding: 0 0 15px 0;
+  width: 400px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.container-user .basket-main .basket-info .basket-form .form-options {
+  margin: 10px 20px 0 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.container-user .basket-main .basket-info .basket-form .form-options .payment {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.container-user .basket-main .basket-info .basket-form .form-options .payment .payment-title {
+  font-size: 20px;
+  font-family: "Exo 2";
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.container-user .basket-main .basket-info .basket-form .form-options .payment .option input {
+  color: black;
+}
+.container-user .basket-main .basket-info .basket-form .form-options .payment .option label {
+  font-size: 14px;
+  font-family: "Exo 2";
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.container-user .basket-main .basket-info .basket-form .form-options .delivery {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.container-user .basket-main .basket-info .basket-form .form-options .delivery .delivery-title {
+  font-size: 20px;
+  font-family: "Exo 2";
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.container-user .basket-main .basket-info .basket-form .form-options .delivery .option input {
+  color: black;
+}
+.container-user .basket-main .basket-info .basket-form .form-options .delivery .option label {
+  font-size: 14px;
+  font-family: "Exo 2";
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.container-user .basket-main .basket-info .basket-form .amount .amount-number {
+  font-size: 20px;
+  font-family: "Exo 2";
+  font-weight: 700;
+  margin: 30px 0 20px 20px;
+}
+.container-user .basket-main .basket-info .basket-form .payment-btn {
+  display: flex;
+  justify-content: center;
+}
+.container-user .basket-main .basket-info .basket-form .payment-btn .pay-btn {
+  font-size: 24px;
+  font-family: "Exo 2";
+  font-weight: 400;
+  text-transform: uppercase;
+  background-color: #8EBD3B;
+  border: none;
+  padding: 10px 105px;
+  margin-bottom: 20px;
+}
+
+.saves-main,
+.history-main,
+.basket-main {
+  position: absolute;
+  top: 170px;
+  left: 400px;
+  opacity: 0;
+  margin-left: -10000px;
+  transition: opacity 0.5s ease; 
+}
+    
+.saves-main.active,
+.history-main.active,
+.basket-main.active {
+  background-color: #fff;
+  opacity: 1;
+  margin-left: 0;
+}

@@ -1,0 +1,101 @@
+.popular {
+    margin-bottom: 115px;
+}
+.popular .popular-title {
+    color: black;
+    font-family: "Exo 2";
+    font-size: 26px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 70px;
+    font-weight: 500;
+}
+.popular .popular_slider {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.popular .popular_slider .slider-list {
+    display: flex;
+    justify-content: center;
+    transition: transform 1s ease;
+    padding: 20px;
+}
+.popular .popular_slider .slider-list .slider-item {
+    flex: 0 0 25%;
+    margin: 0;
+    text-align: center;
+    transition: all 500ms ease;
+    /* border: 1px solid black; */
+}
+.popular .popular_slider .slider-list .slider-item:hover {
+    transform: scale(1.05);
+    box-shadow: 6px 4px 10px 0px rgba(0, 0, 0, 0.21);
+}
+.popular .popular_slider .slider-list .slider-item img {
+    width: 270px;
+}
+.popular .popular_slider .slider-list .slider-item .product_name {
+    color: black;
+    font-family: "Exo 2";
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 10px 15px 80px 15px;
+    font-weight: 500;
+}
+.popular .popular_slider .slider-list .slider-item .card_footer {
+    width: 270px;
+    margin: 80px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.popular .popular_slider .slider-list .slider-item .card_footer .product_price {
+    color: black;
+    font-family: "Exo 2";
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 5px;
+}
+.popular .popular_slider .slider-list .slider-item .card_footer .card_footer-icons {
+    display: flex;
+    gap: 20px;
+}
+.popular .popular_slider .slider-list .slider-item .card_footer .card_footer-icons button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.popular .popular_slider .slider-list .slider-item .card_footer .card_footer-icons button .basket-img {
+    width: 25px;
+    transition: all 500ms ease;
+}
+.popular .popular_slider .slider-list .slider-item .card_footer .card_footer-icons button .basket-img:hover {
+    transform: scale(1.2);
+    
+}
+.popular .popular_slider .slider-list .slider-item .card_footer .card_footer-icons button .like-img {
+    width: 25px;
+    transition: all 500ms ease;
+}
+.popular .popular_slider .slider-list .slider-item .card_footer .card_footer-icons button .like-img:hover {
+    transform: scale(1.2);
+}
+.popular .popular_slider .slider-controls .slider-prev,
+.popular .popular_slider .slider-controls .slider-next {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 33px;
+    height: 66px;
+}
+.popular .popular_slider .slider-controls .slider-prev {
+    left: 0;
+}
+.popular .popular_slider .slider-controls .slider-next {
+    right: 10px;
+}

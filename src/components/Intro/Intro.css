@@ -1,0 +1,29 @@
+.intro {
+    margin-bottom: 35px;
+}
+.intro .slider {
+    position: relative;
+    overflow: hidden;
+}
+.intro .slider .slider-container {
+    display: flex;
+    transition: transform 1.5s ease;
+}
+.intro .slider .slider-container img {
+    flex: 0 0 100%;
+}
+.intro .slider .prev-btn,
+.intro .slider .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.intro .slider .prev-btn {
+    left: 10px;
+}
+.intro .slider .next-btn {
+    right: 10px;
+}

@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Exo 2";
+  font-size: 20px;
+}
+header {
+    border-bottom: 1px solid #5c5c5c;
+}
+header .header__container {
+    width: 97%;
+    margin: 0 auto;
+}
+header .header__container .header__top {
+    display: flex;
+    justify-content: space-between;
+}
+header .header__container .header__top .location {
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+}
+header .header__container .header__top .location button {
+    background-image: url(../../../public/img/header-img/location.svg);
+    background-color: #fff ;
+    border: none;
+    width: 18px;
+    height: 18px;
+    margin: auto 0;
+}
+header .header__container .header__top .location button:hover {
+    background-image: url(../../../public/img/header-img/location_selected.svg);
+}
+header .header__container .header__top .location label {
+    margin: auto 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+}
+header .header__container .header__top .location label:hover {
+    color:#5c5c5c;
+}
+header .header__container .header__top .logo_img {
+    margin-top: 10px;
+    text-decoration: none;
+    align-self: center;
+    max-width: 100px;
+}
+header .header__container .header__top .logo_img img {
+    max-width: 250px;
+}
+header .header__container .header__top .header__icons {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+header .header__container .header__top .header__icons .header__icon {
+    transition: transform 500ms ease;
+}
+header .header__container .header__top .header__icons .header__icon:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+header .header__container .header__top .header__icons .header__icon img {
+    max-width: 20px;
+}
+header .header__nav nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+header .header__nav nav a {
+    text-decoration: none;
+    color: black;
+    font-family: "Exo 2";
+    font-size: 14px;
+    text-transform: uppercase;
+}
+header .header__nav nav a:hover {
+    color: #5c5c5c;
+}

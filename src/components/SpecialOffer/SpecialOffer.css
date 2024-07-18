@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Exo 2";
+  font-size: 20px;
+}
+
+.sale-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 86%;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.sale-container h1 {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.sale-container .sale-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sale-container .sale-cards .sale-item {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    border-bottom: 1px solid #5c5c5c;
+    padding: 20px;
+}
+.sale-container .sale-cards .sale-item img {
+    max-width: 450px;
+    max-height: 300px;
+}
+.sale-container .sale-cards .sale-item .sale-desc {
+    max-width: 700px;
+}
+.sale-container .sale-cards .sale-item .sale-desc p {
+    font-size: 14px;
+}
+.sale-container .sale-cards .sale-item .sale-desc a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+}
+.sale-container .sale-cards .sale-item .sale-desc a:hover {
+    color:#5c5c5c;
+}

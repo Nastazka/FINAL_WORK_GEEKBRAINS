@@ -1,0 +1,94 @@
+footer {
+    border-top: 1px solid black;
+    margin-bottom: 50px;
+    padding-top: 47px;
+}
+footer .container {
+    display: flex;
+    justify-content: center;
+}
+  footer .container .footer-container {
+    display: flex;
+    gap: 60px;
+  }
+  footer .container .footer-container .shop,
+  footer .container .footer-container .info,
+  footer .container .footer-container .company {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+  footer .container .footer-container .shop p,
+  footer .container .footer-container .info p
+   {
+    color: black;
+    font-family: "Exo 2";
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 9px;
+  }
+footer .container .footer-container .company .company-desc {
+    margin-top: -7px;
+}
+
+  footer .container .footer-container .shop a,
+  footer .container .footer-container .info a,
+  footer .container .footer-container .company a {
+    color: black;
+    font-family: "Exo 2";
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  footer .container .footer-container .company .company-desc {
+    font-size: 16px;
+    width: 304px;
+  }
+  footer .container .footer-container .contacts {
+    width: 200px;
+  }
+  footer .container .footer-container .contacts .contacts-title {
+    color: black;
+    font-family: "Exo 2";
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 9px;
+  }
+  footer .container .footer-container .contacts .contacts-container {
+    display: flex;
+    gap: 15px;
+  }
+  footer .container .footer-container .contacts .contacts-container .contacts-icons,
+  footer .container .footer-container .contacts .contacts-container .contacts-text {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+  footer .container .footer-container .contacts .contacts-container .contacts-icons a,
+  footer .container .footer-container .contacts .contacts-container .contacts-text a {
+    color: black;
+    font-family: "Exo 2";
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  footer .container .questions .question {
+    color: black;
+    font-family: "Exo 2";
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 8px;
+  }
+  footer .container .questions .action {
+    color: black;
+    font-family: "Exo 2";
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 18px;
+  }
+  footer .container .questions .social-icons {
+    display: flex;
+    gap: 30px;
+  }

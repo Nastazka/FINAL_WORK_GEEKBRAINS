@@ -1,0 +1,19 @@
+.container-brands {
+    width: 86%;
+    margin: 0 auto;
+}
+.container-brands .brands {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    align-content: center;
+}
+.container-brands .brands a {
+    transition: all 500ms ease;
+}
+.container-brands .brands a:hover {
+    transform: scale(1.05);
+}
+.container-brands .brands a img {
+    max-width: 170px;
+}

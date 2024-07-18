@@ -1,0 +1,39 @@
+.container .lines {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 115px;
+}
+.container .lines .line-title {
+    color: black;
+    font-family: "Exo 2";
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 80px;
+    align-self: center;
+}
+.lines .lines-cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.container .lines .lines-cards .line-card {
+    flex: 0 0 25%;
+    margin: 0;
+    transition: all 400ms ease-in-out;
+}
+.container .lines .lines-cards .line-card:hover {
+    transform: scale(1.05);
+}
+.container .lines .lines-cards .line-card img {
+    width: 90%;
+}
+.container .lines .lines-cards .line-card .line-name {
+    color: black;
+    font-family: "Exo 2";
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 100px;
+    margin: 40px 0;
+    cursor: pointer;
+}
